@@ -5,21 +5,21 @@
 }
 .nav{
     width: 100%;
-    min-height: 66px;
+    height: 66px;
     background: #43a5f6;
     padding: 0px 50px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: auto;
+    
 }
 .nav .nav-logo{
     color: #fff;
     
 }
-.nav-logo svg path{
-    width: 40px;
-    background-size: contain;
+.nav-logo img{
+    width: 150px;
+    height: 60px;
+    
 }
 .nav ul{
     position: relative;
@@ -49,8 +49,9 @@
     width: 200px;
     background: #445964;
     padding-left: 0px;
+    z-index: 2;
     display: none;
-    border: none;
+    
 }
 .nav ul li ul li{
     position: relative;
@@ -61,7 +62,7 @@
     display: block;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     nav{
         padding: 0px 0px;
     }
@@ -71,7 +72,7 @@
         top: 66px;
         left: 0;
         background: #445964;
-        
+        display: none;
 
     }
    
@@ -121,4 +122,85 @@
         transform: rotate(-45deg);
         
     }
+}
+/* Nav End*/
+
+
+/* Hero start*/
+
+#hero-section{
+    -image: url(../img/home_img/hero-2.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-img{
+    background-image: url(../img/home_img/hero-2.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.heading h1{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 40px;
+    
+}
+.heading p{
+    text-align: center;
+}
+.heading p a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    background-color: #FF6F6F;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* hero end*/
+
+
+.choose-domain h1{
+    text-align: center;
+}
+.input-bar-items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.input-item-text{
+    width: 25%;
+}
+
+/* .dollar{
+    width: 20px;
+    height: 20px;
+} */
+
+.t-99{
+    font-size: 18px;
+
+}
+.dollar img{
+    width: 10px;
+    height: 10px;
+}
+
+.input-item-text{
+    display: flex;
+    
 }
