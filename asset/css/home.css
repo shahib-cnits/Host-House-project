@@ -355,6 +355,8 @@ margin-top: -100px;
 }
 /* hero card section end*/
 
+
+
 /* web hosting start*/
 
 #web-hosting-section{
@@ -393,8 +395,10 @@ margin-top: -100px;
     background-color: var(--white) !important;
 
 }
+
 .web-hosting-cards{
     padding-top: 50px;
+    
 }
 .web-hosting-card{
     width: 80%;
@@ -402,6 +406,8 @@ margin-top: -100px;
     border-bottom-right-radius: 9px;
     border-top-left-radius: 9px;
     transition: all 0.5s ease-in-out;
+    margin-top: 30px;
+    
 }
 .web-hosting-card h5{
     font-size: 28px;
@@ -444,7 +450,8 @@ margin-top: -100px;
 }
 .web-hosting-card button{
     width: 100%;
-    height: 35px;
+    height: 45px;
+    
     font-size: 20px !important;
     color: white;
     background-color: var(--primary-color);
@@ -453,23 +460,214 @@ margin-top: -100px;
     transition: all 0.5s ease-in-out;
 
 }
-.web-hosting-card:hover{
-    background-color: var(--primary-color);
-    transform: scale(1.1);
+.web-host-Premium-card{
+    width: 80%;
+    text-align: center;
+    border-bottom-right-radius: 9px;
+    border-top-left-radius: 9px;
+    transition: all 0.5s ease-in-out;
+    background-color: var(--primary-color) !important;
+    color: var(--white);
+    padding-top: 20px;
+    position: relative;
+    overflow: hidden;
 }
-.web-hosting-card:hover li{
-    color: white;
-}
-.web-hosting-card:hover button{
+.premium-batch{
+    position: absolute;
+    width: 50%;
+    height: 30px;
     background-color: var(--secondary-color);
+    color: var(--white);
+    transform: skewY(-35deg);
+    text-align: left;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    
+    
 }
-.web-hosting-card:hover h5{
+.web-host-Premium-card h5{
+    font-size: 28px;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+.Features-para-premium{
+    padding-top: 30px;
+    font-weight: 600;
+}
+.web-cost-premium{
+    position: relative;
+}
+.web-cost-premium::after{
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    width: 80%;
+    height: 1px;
+    background-color: lightgray;
+}
+.web-host-Premium-card ul{
+    text-align: center;
+    padding-left: 0px;
+    padding-bottom: 30px;
+    
+}
+.web-host-Premium-card ul li svg{
+    height: 15px;
+    width: 15px;
+}
+.web-host-Premium-card li{
+    font-size: 15px;
+    padding: 4px 4px;
+    transition: all 0.5s ease-in-out;
+    /* padding-left: 5px !important; */
+    
+}
+.web-host-Premium-card button{
+    width: 100%;
+    height: 45px;
+    font-size: 20px !important;
     color: white;
+    background-color: var(--secondary-color);
+    border: none;
+    border-bottom-right-radius: 9px;
+    transition: all 0.5s ease-in-out;
 
 }
-.web-hosting-card:hover p{
-    color: white;
+.web-host-link{
+    text-align: center;
+ 
 }
-.web-hosting-card:hover .web-hosting-cost h4{
-    color: white;
+.see-more{
+    position: relative;
+    padding-top: 40px;
+    padding-right: 70px;
+    font-size: 21px;
+    color: black;
+
+}
+.see-more a{
+    color: black;
+}
+.see-more::before{
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 2px;
+    bottom: 0px;
+    background-color: #000;
+
+}
+.web-hosting-card:hover{
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.1);
+}
+/* web hosting card seciton end*/
+
+
+
+/*control panel section start*/
+
+#control-panel-section{
+    padding-top: 100px;
+}
+.control-panel-heading{
+    text-align: center;
+}
+.control-panel-cards{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.control-panel-card{
+    text-align: center;
+    padding: 20px 100px;
+}
+.control-panel-card{
+    
+}
+.control-panel-card h4{
+    padding: 30px 0px;
+    padding-bottom: 20px;
+
+}
+.control-panel-img{
+    padding-top: 300px;
+}
+.control-panel-img img{
+    width: 100%;
+    height: auto;
+}
+/* control panel section end*/
+
+
+
+/*another host section start*/
+
+.another-host-content{
+    padding-top: 100px;
+}
+.another-host-img img{
+    width: 100%;
+
+}
+.another-host-migrate{
+    padding-top: 40px;
+}
+.another-host-migrate h4{
+    text-align: center;
+}
+.another-host-migrate p{
+    padding-top: 30px;
+}
+.host-migrate-li-btn{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.host-migrate-li-btn li{
+    font-weight: 600;
+    font-size: 17px;
+}
+.host-migrate-li-btn button{
+    color: var(--white);
+    background-color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: 400;
+    width: 120px;
+    border: none;
+    border-radius: 9px;
+}
+/*another host section end*/
+
+
+/*data location start*/
+
+#data-location-section{
+    padding-top: 150px;
+}
+.data-location-heading{
+    text-align: center;
+}
+.data-location-img img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+
+}
+.data-location-img{
+    position: relative;
+}
+.data-location-img::after{
+    content: "bangladesh";
+    position: absolute;
+    width: 90px;
+    height: 25px;
+    top: 33%;
+    left: 40%;
+    padding-left: 5px;
+    border-top-right-radius: 3px solid var(--black);
+    background-color: var(--secondary-color);
 }
