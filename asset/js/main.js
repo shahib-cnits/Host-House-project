@@ -6,4 +6,4 @@ menuToggle.onclick = function(){
 
 $('.popover-dismiss').popover({
     trigger: 'focus'
-  })
+})
