@@ -203,6 +203,12 @@ li{
     border-radius: 5px;
     font-size: 15px;
 }
+@media screen and (max-width: 570px) {
+    .heading h1{
+        font-size: 50px;
+    }
+    
+}
 
 /* hero end*/
 
@@ -323,6 +329,9 @@ margin-top: -100px;
     .input-group button{
         font-size: 15px;
     }
+    .input-bar-items{
+        justify-content: center;
+    }
 
     
 }
@@ -399,6 +408,10 @@ margin-top: -100px;
 .web-hosting-cards{
     padding-top: 50px;
     
+}
+.web-hosting-item{
+    display: flex;
+    justify-content: center;
 }
 .web-hosting-card{
     width: 80%;
@@ -562,6 +575,14 @@ margin-top: -100px;
 .web-hosting-card:hover{
     box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.1);
 }
+@media  screen and (max-width: 770px) {
+    .web-hosting-card{
+        margin-bottom: 50px;
+    }
+    .see-more{
+        padding-right: 18px;
+    }
+}
 /* web hosting card seciton end*/
 
 
@@ -600,6 +621,21 @@ margin-top: -100px;
     width: 100%;
     height: auto;
 }
+
+@media screen and (max-width: 570px) {
+    .control-panel-card p{
+        font-size: 13px;
+    }
+    .control-panel-img{
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .control-panel-img{
+        padding-top: 100px;
+    }
+    
+}
 /* control panel section end*/
 
 
@@ -636,10 +672,23 @@ margin-top: -100px;
     background-color: var(--secondary-color);
     font-size: 20px;
     font-weight: 400;
-    width: 120px;
+    padding: 0px 20px;
     border: none;
     border-radius: 9px;
 }
+@media screen and (max-width: 570px) {
+    .host-migrate-li-btn button{
+        font-size: 15px;
+        padding: 0px 10px;
+        word-break: keep-all;
+    }
+    .host-migrate-li-btn li span{
+        font-size: 15px;
+
+    }
+    
+}
+
 /*another host section end*/
 
 
@@ -894,6 +943,7 @@ margin-top: -100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     padding-top: 50px;
 }
 .data-location-button button{
@@ -903,7 +953,24 @@ margin-top: -100px;
     font-weight: 600;
     background-color: #fff;
 }
+@media screen and (max-width:570px) {
+    #data-location-section{
+        padding-top: 100px;
+
+    }
+    .data-location-button button{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .data-location-button button{
+        margin-bottom: 10px;
+    }
+    
+}
 /* data location section end*/
+
+
 
 
 /*host house special section end*/
@@ -930,6 +997,18 @@ margin-top: -100px;
     padding-top: 5px;
     padding-bottom: 0px !important;
     margin-bottom: 2px;
+}
+@media screen and (max-width: 570px) {
+    .host-house-card{
+        margin-bottom: 50px;
+    }
+    
+}
+@media screen and (max-width: 990px) {
+    .host-house-card{
+        margin-bottom: 50px;
+    }
+    
 }
 /*host-house-secial section end*/
 
@@ -959,15 +1038,41 @@ margin-top: -100px;
     font-size: 17px;
     font-weight: 600;
 }
-.carousel{
+
+
+/*testimonial css */
+.swiper {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /*testimonial css end*/
+
+
+/* .carousel{
     padding: 20px 20px;
     width: 70%;
     margin: auto;
     border: none;
     
     /* background-color: var(--primary-color); */
-}
-.review-carousel h4{
+
+/* .review-carousel h4{
     text-align: center;
 }
 .carousel-indicators button{
@@ -979,8 +1084,8 @@ margin-top: -100px;
     border-radius: 100% !important;
     background-color: var(--secondary-color) !important;
     /* border: 1px solid black !important; */
-}
-.carousel-item{
+
+/* .carousel-item{
     padding: 30px;
     margin-bottom: 10px;
     border-radius: 9px;
@@ -993,7 +1098,7 @@ margin-top: -100px;
     font-size: 15px;
     background-color: var(--primary-color);
     padding-right: 10px !important;
-}
+} /* 
 /* .carousel-item p{
     margin-left: 50px;
 } */
@@ -1044,6 +1149,26 @@ margin-top: -100px;
     padding-top: 0px !important;
     font-weight: 700;
 }
+@media screen and (max-width: 570px) {
+    .what-review-text p{
+        padding-bottom: 30px;
+        
+    }
+    .review-carousel h4{
+        padding-top: 20px;
+
+    }
+    .what-review-card{
+        margin-bottom: 30px;
+    }
+    
+}
+@media screen and (max-width: 990px) {
+    .what-review-card{
+        margin-bottom: 30px;
+    }
+    
+}
 /*what review section end*/
 
 
@@ -1056,27 +1181,29 @@ margin-top: -100px;
 .newsletter-img{
     background-image: url(../img/home_img/newsletter.png);
     width: 100%;
-    height: 40vh;
-    background-size: contain;
+    height: 31vh;
+    object-fit: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .newsletter-img img{
     width: 100%;
-    height: auto;
-    background-size: cover;
+    height: 31vh;
+    
     
 
 }
 .newsletter-items{
     width: 100%;
+    position: absolute;
     text-align: center;
 }
 .newsletter-items h3{
     padding-bottom: 30px;
-    margin-bottom: -30px;
+    /* margin-bottom: -30px; */
     font-size: 35px;
     font-weight: 700;
 }

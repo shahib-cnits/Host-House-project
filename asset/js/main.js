@@ -4,6 +4,6 @@ menuToggle.onclick = function(){
     nav.classList.toggle('active');
 }
 
-$('.popover-dismiss').popover({
-    trigger: 'focus'
-})
+// $('.popover-dismiss').popover({
+//     trigger: 'focus'
+// })
