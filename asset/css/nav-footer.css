@@ -4,6 +4,51 @@
     box-sizing: border-box;
 
 }
+
+/*nav section start*/
+
+.navbar-brand svg{
+    width: 130px;
+    height: 50px;
+
+}
+/* .navbar-toggler span i{
+    height: 30px;
+    width: 300px;
+
+     
+} */
+.navbar-nav{
+    gap: 15px !important;
+}
+.navbar-nav li a{
+    color: #000;
+    font-size: 15px;
+    font-family: Raleway;
+    font-weight: 600;
+}
+.dropdown-menu{
+    border: none;
+    border-bottom-left-radius: 9px !important;
+    border-bottom-right-radius: 9px !important;
+}
+.nav-button button{
+    padding: 5px 25px;
+    margin-left: 50px;
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+@media screen and (max-width: 570px) {
+    .nav-button button{
+        margin-left: 0px;
+    }
+    
+}
 /*footer section start*/
 
 #footer-section{

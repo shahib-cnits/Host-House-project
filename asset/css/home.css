@@ -1182,8 +1182,7 @@ margin-top: -100px;
     background-image: url(../img/home_img/newsletter.png);
     width: 100%;
     height: 31vh;
-    object-fit: cover;
-    background-repeat: no-repeat;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1192,6 +1191,8 @@ margin-top: -100px;
 .newsletter-img img{
     width: 100%;
     height: 31vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
     
     
 
