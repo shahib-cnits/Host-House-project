@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --primary-color: #483875;
+    --secondary-color: #F54646;
+    --white: #fff;
+    --black: #000;
+    --primary-font: "Ubuntu";
+    --secondary-font: "Raleway";
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 , h2, h3, h4, h5, h6{
+    font-family: var(--primary-font);
+}
+p{
+    font-family: var(--secondary-font);
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+
+
+
+/* Hero start*/
+
+#hero-section{
+    /* -image: url(../img/home_img/hero-2.png); */
+    /* width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+.hero-img{
+    background-image: url(../img/about-us_img/about.png);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.heading h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+    
+}
+.heading p{
+    text-align: center;
+}
+.heading p a{
+    text-decoration: none;
+    color: white;
+    /* padding: 15px 30px;
+    background-color: black;
+    border: none;
+    border-radius: 5px; */
+    font-size: 15px;
+}
+@media screen and (max-width: 570px) {
+    .heading h1{
+        font-size: 50px;
+    }
+    
+}
+
+/* hero end*/
+
+
+
+
+
+/*welcome to host house company seciton start*/
+
+
+
+
+.welcome-host-house-img{
+    width: 100%;
+}
+.welcome-host-house-img img{
+    width: 100%;
+    
+    background-size: cover;
+
+}
+.welcome-host-house-text h3{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+.welcome-host-house-text p{
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0px;
+}
+.welcome-host-house{
+    padding: 50px 0px;
+
+}
+.welcome-host-house-text ul li svg{
+    height: 25px;
+    width: 25px;
+
+}
+.welcome-host-house-text li{
+    padding: 10px 0px;
+}
+/* welcome to host house section end*/
+
+
+
+
+/* pick you perfect web hosting plan*/
+
+.pick-perfect-hosting-plan-heading{
+    text-align: center;
+    padding: 50px 0px;
+}
+.pick-perfect-hosting-plan-heading h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.pick-perfect-hosting-plan-card{
+    text-align: center;
+    padding: 0px 30px;
+}
+.pick-perfect-hosting-plan-card h5{
+    padding: 20px 0px;
+
+}
+
+/* pick you perfect web hosting plan end*/
+
+
+
+
+
+ /* Our Skills and Expertise */
+
+ .proggress-bar{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+ }
+
+ .skill-and-expertise-heading{
+    text-align: center;
+    padding: 100px 0px;
+ }
+ .social-proggess-bar{
+    width: 100%;
+    /* padding: 30px; */
+    
+ }
+ .social-proggress-bar-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .social-proggress-bar-chart{
+    width: 100%;
+    height: 4px;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--primary-color)
+ }
